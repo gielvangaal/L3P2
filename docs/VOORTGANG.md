@@ -77,6 +77,8 @@ Gebruik per betekenisvol oefenmoment dit compacte sjabloon:
 - **Later herhalen:** …
 - **Praktijk/Python:** …
 
+- **2026-11-09 (vervolg):** Sterschema versus platte ML-dataset, ETL → features/target → modeltraining besproken; vier praktijkscenario's voor target en feature grotendeels zelfstandig correct beantwoord (bank, ziekenhuis, machine, school), status **oefenen**.
+
 ## Eerstvolgende acties
 
 1. Ga verder met hoog-over uitleg over hoe een model wordt getraind: features, target, trainingsvoorbeelden en testdata (huizenprijs als voorbeeld). Nog geen overhoring.
