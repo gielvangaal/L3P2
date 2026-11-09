@@ -12,9 +12,9 @@ Statussen: **nieuw** / **oefenen** / **bijna beheerst** / **beheerst**. 'Beheers
 
 - **Fase:** voorbereiding / begin van de periode.
 - **Voorkennis:** eerder gewerkt met BI, Power BI, datamodellering en ETL (LU1). Dat betekent niet automatisch dat machine learning of Python al beheerst wordt.
-- **Python:** startniveau nog vast te stellen; begin bij de basis en laat mij zelf code schrijven.
-- **Studiemodus:** voorlopig uitleg op hoofdlijnen (podcast/wandelen), géén overhoring totdat ik expliciet vraag om te oefenen. Ik geef zelf aan wanneer ik stop.
-- **Overhoringen:** nog geen formele prestaties voor LU2 geregistreerd. Het eerste gesprek was oriënterend, geen nulmeting.
+- **Python:** eerste mondelinge begrippentoets gedaan; praktische codevaardigheid nog niet vastgesteld.
+- **Studiemodus:** bij nieuwe ML-stof eerst rustige uitleg; bij expliciet verzoek een korte overhoring, één vraag tegelijk. Ik geef zelf aan wanneer ik stop.
+- **Overhoringen:** eerste mondelinge oefeningen voor ML en Python zijn hieronder per onderwerp vastgelegd; geen praktische vaardigheidstoets uitgevoerd.
 - **Praktijkopdracht:** document [Practicum en opdrachten – LU2](Practicum_en_opdrachten_overview_LU_2_2026_2027_v1.0.docx) globaal besproken. De hoofdeisen en deliverables zijn geïnventariseerd; projectkeuze en uitvoering moeten nog beginnen.
 
 ## Leerdoelen volgens toetsmatrijs
@@ -27,20 +27,40 @@ Statussen: **nieuw** / **oefenen** / **bijna beheerst** / **beheerst**. 'Beheers
 | Interpretatie en verantwoording | 20% | nieuw | Modeluitkomsten vertalen naar het bedrijfsprobleem, met beperkingen |
 | Complexiteit en technische uitvoering | 20% | nieuw | Reproduceerbare Python-uitvoering en onderbouwde technische keuzes |
 
-## Onderwerpen om te oefenen
+## Machine learning – kennis en voortgang
 
-| Onderwerp | Status | Aantekeningen / misconcepties |
+| Onderwerp | Status | Aantekeningen |
 | --- | --- | --- |
-| ML-basis: classificatie, regressie, clustering | oefenen | Eerste uitleg: regressie voorspelt getal, classificatie categorie; clustering ontdekt groepen zonder vooraf gegeven labels. Nog niet zelfstandig getoetst. |
-| Supervised versus unsupervised learning | oefenen | Clustering correct herkend als unsupervised; supervised gebruikt voorbeelden met doeluitkomsten. Verder oefenen. |
-| Data verkennen, cleaning, missing values en bias | nieuw | — |
-| Python-basis, functies, modules en virtuele omgevingen | nieuw | — |
-| pandas en datasets verwerken | nieuw | — |
-| Train/test, datalekken en overfitting | nieuw | Nut van aparte testdata globaal besproken; nog geen technische verdieping of toetsing. |
-| scikit-learn, baseline en modelvergelijking | nieuw | — |
-| Statistiek en passende evaluatiemetrieken | nieuw | — |
-| Modelverbetering en reproduceerbaarheid | nieuw | — |
-| Resultaten interpreteren, onderbouwen en verantwoord omgaan met data/AI | nieuw | — |
+| Regressie, classificatie en clustering | oefenen | Begrippen uitgelegd; clustering herkend als unsupervised. Nogmaals zelfstandig toepassen. |
+| Supervised versus unsupervised | oefenen | Verschil op hoofdlijnen besproken. |
+| Features en target | oefenen | Vier praktijkscenario's (bank, ziekenhuis, machine, school) grotendeels zelfstandig goed: target en relevante feature genoemd. |
+| Van brondata via ETL naar trainingsdataset | oefenen | Verschil sterschema en platte ML-dataset begrepen; algoritme leert uit dataset en levert getraind model. |
+| Data cleaning, datakwaliteit, missing values en bias | nieuw | Slechte data als risico genoemd; nog verder uitwerken. |
+| Train/test, overfitting en datalekken | nieuw | Doel aparte testdata besproken, toepassing nog niet geoefend. |
+| Modellen kiezen, evalueren en optimaliseren | nieuw | Nog niet praktisch geoefend. |
+| Interpretatie, verantwoording en AI-ethiek | nieuw | Introductie besproken. |
+
+**2026-11-09 – gesprek:** eerste oriëntatie op ML, supervised/unsupervised, regressie/classificatie/clustering, features/target en training; via voorbeelden de brug gelegd naar ETL en BI. Vier features/target-scenario's grotendeels correct; begrip groeit, nog niet beheerst. Geen ML-code geschreven.
+
+**Volgende ML-stap:** rustig verder met trainingsvoorbeelden, train/test-splitsing en hoe een simpel model leert; later passende modellen vergelijken.
+
+## Python – kennis en voortgang
+
+| Onderwerp | Status | Aantekeningen |
+| --- | --- | --- |
+| List en dictionary | oefenen | Zelfstandig correct: list met items (ook geneste lijsten); dictionary met key-valueparen. |
+| For-loop | oefenen | Zelfstandig: door elementen van een lijst lopen; uitbreiden naar andere iterables. |
+| Functies | oefenen | Herbruikbaar codeblok met specifieke taak; definitie op verzoek aangescherpt. Parameters en return later oefenen. |
+| `len()` | oefenen | Correct: aantal items in lijst. |
+| `if/else` | oefenen | Correct: conditie bepaalt welk codeblok uitgevoerd wordt. |
+| Variabelen | oefenen | Waarde/naam besproken; nauwkeuriger: naam verwijst naar object/waarde. |
+| `input()` en stdin | oefenen | Eerst onbekend, daarna herkend als ingebouwde functie die tekst via standaardinvoer leest; geeft string terug. |
+| String versus integer | oefenen | Correct: tekst versus geheel getal; ook cijfertekens kunnen in strings staan. |
+| Zelf Python-code schrijven, modules, virtuele omgevingen, pandas en scikit-learn | nieuw | Nog geen praktische opdrachten uitgevoerd. |
+
+**2026-11-09 – korte mondelinge overhoring:** list/dictionary, for-loop, functie, `len()`, if/else, variabelen en string/int grotendeels goed beantwoord; `input()` na uitleg begrepen. Dit toont herkenning en begrip, nog geen aantoonbare zelfstandige Python-implementatie.
+
+**Volgende Python-stap:** korte begripsvragen blijven afwisselen met kleine eigen code-oefeningen; `input()`, functies met parameters/return en datatypes opnieuw toepassen.
 
 ## Praktijkopdracht – werkstatus
 
@@ -53,37 +73,11 @@ Statussen: **nieuw** / **oefenen** / **bijna beheerst** / **beheerst**. 'Beheers
 - **Evaluatie en optimalisatie:** nog niet gestart.
 - **Rapportage / oplevering:** nog niet gestart; drie deliverables en assessment zijn wel in beeld.
 
-## Oefenlog
-
-### 2026-11-09 – eerste oriëntatie machine learning (gesprek)
-- **Geoefend/besproken:** relatie met eerdere periode (data en BI), verschil regelgebaseerde software en ML, regressie/classificatie/clustering, supervised/unsupervised, data-kwaliteit, trainen, aparte testdata, evalueren en de globale workflow van probleem tot prototype. Korte zijstap naar AI/neuraal netwerk/taalmodel.
-- **Zelfstandig goed:** benoemde dat ML patronen uit data leert in plaats van alleen expliciete regels te volgen; noemde slechte trainingsdata en ongeschikte modelinstellingen als risico; herkende clustering als unsupervised.
-- **Fouten / misconcepties:** termen classificatie en labeling door elkaar; aanvankelijk onduidelijkheid over hoe AI, neurale netwerken en ML zich tot elkaar verhouden. Mondeling verduidelijkt, nog niet getoetst.
-- **Uitleg nodig:** ja, uitdrukkelijk gevraagd om hoog-over uitleg in plaats van quizvragen. Nog niet begonnen met lezen.
-- **Statuswijziging:** ML-basis en supervised/unsupervised van *nieuw* naar *oefenen*, niet naar beheerst.
-- **Later herhalen:** drie taaktypen en onderscheid tussen leertypen, daarna features, target, trainen en train/test-splitsing.
-- **Praktijk/Python:** geen code geschreven; project en dataset nog niet gekozen.
-- **Afspraak:** voorlopig luistergerichte uitleg in kleine stappen; pas overhoren op eigen verzoek. Richting: relevante delen van *Machine Learning Foundations* (hoofdstuk 1 en 4.1–4.2) en *AI Ethics* (hoofdstuk 1–2) gericht lezen, niet noodzakelijk hele boeken.
-
-
-Gebruik per betekenisvol oefenmoment dit compacte sjabloon:
-
-### YYYY-MM-DD – onderwerp
-- **Geoefend:** …
-- **Zelfstandig goed:** …
-- **Fouten / misconcepties:** …
-- **Hint of uitleg nodig:** …
-- **Statuswijziging:** …
-- **Later herhalen:** …
-- **Praktijk/Python:** …
-
-- **2026-11-09 (vervolg):** Sterschema versus platte ML-dataset, ETL → features/target → modeltraining besproken; vier praktijkscenario's voor target en feature grotendeels zelfstandig correct beantwoord (bank, ziekenhuis, machine, school), status **oefenen**.
-
 ## Eerstvolgende acties
 
-1. Ga verder met hoog-over uitleg over hoe een model wordt getraind: features, target, trainingsvoorbeelden en testdata (huizenprijs als voorbeeld). Nog geen overhoring.
-2. Lees gericht de voorgeschreven passages uit *Machine Learning Foundations* en later *AI Ethics*; bespreek onduidelijkheden tijdens wandelen.
-3. Kies daarna een afgebakend bedrijfsprobleem en geschikte dataset; toets de formele opdrachteisen en eventuele deadlines nog zorgvuldig.
-4. Zodra ik aangeef te willen oefenen: één vraag tegelijk, met feedback en herhaling. Begin later met Python-oefeningen en een werkende baseline.
+1. Machine learning: training, features/target en train/test verder uitleggen, daarna toepassen.
+2. Python: korte vragen en eigen mini-oefeningen met variabelen, functies, `input()` en datatypes.
+3. Relevante delen van *Machine Learning Foundations* (hoofdstuk 1 en 4.1–4.2) en *AI Ethics* (hoofdstuk 1–2) gericht lezen.
+4. Praktijkprobleem en dataset kiezen; later een eerste werkende baseline bouwen.
 
-> Houd dit document klein en feitelijk. Geen fictieve voortgang, geen automatisch 'beheerst' na één goed antwoord.
+> Statussen blijven per onderdeel onafhankelijk. 'Beheerst' pas na uitleg zonder hulp én toepassing in een nieuwe situatie.
