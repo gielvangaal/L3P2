@@ -14,10 +14,13 @@ Dit is een **educatieve demonstratie**, geen hulpmiddel om de veiligheid van wil
 
 ## Starten (PyCharm)
 1. Clone de repository en open deze in PyCharm.
-2. Maak een virtual environment aan en installeer de dependencies:
+2. Maak een virtual environment aan en installeer de dependencies via `requirements.txt`:
    ```bash
-   python -m pip install -e .
+   python -m venv .venv
+   source .venv/bin/activate
+   python -m pip install -r requirements.txt
    ```
+   Selecteer in PyCharm de interpreter uit `.venv`.
 3. Download `primary_data_edited.csv` van https://github.com/ghattab/secondarydata en plaats het in `data/raw/`. Bewaar de brondata ongewijzigd.
 4. Start de eerste stap:
    ```bash
